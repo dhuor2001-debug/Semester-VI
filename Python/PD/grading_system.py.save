@@ -1,0 +1,6 @@
+def grade(marks):
+	if marks > 100 and marks < 0:
+		print("Invalid marks")
+if marks > 100 and marks < 0:
+                print("Invalid marks")
+
