@@ -13,4 +13,7 @@ DisplayText.pack(fill=BOTH,expand=TRUE)
 InputText= scrolledtext.ScrolledText(root, height=5, wrap = WORD)
 InputText.pack(fill=X, padx=5, pady = 5)
 
+SendButton = Button(root, text="Send", font=("italy",12), bg="lightgreen", fg="red")
+SendButton.pack(fill=X, padx=5,pady=5)
+
 root.mainloop()
